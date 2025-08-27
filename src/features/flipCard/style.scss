@@ -5,6 +5,7 @@
   transition: all 0.3s;
   cursor: pointer;
 
+
   &:hover {
     transform: scale(1.15);
 
@@ -79,5 +80,10 @@
 
   .is-flipped {
     transform: rotateY(180deg);
+  }
+
+  
+  a {
+    color: white;
   }
 }

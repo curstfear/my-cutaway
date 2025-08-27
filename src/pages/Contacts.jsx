@@ -1,8 +1,9 @@
-import Top from "../components/top/Top";
-export default function Home() {
+import Contact from "../components/contact/Contact";
+
+export default function Contacts() {
   return (
     <>
-      <Hardskills />
+      <Contact />
     </>
   );
 }

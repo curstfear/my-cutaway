@@ -5,7 +5,7 @@ import github from "../../assets/images/icons/github.png";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="container">
         <div className="footer__inner">
           <ul className="footer__links">
@@ -26,6 +26,6 @@ export default function Footer() {
           </a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

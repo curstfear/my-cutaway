@@ -1,0 +1,23 @@
+.contact {
+  padding: 120px 0 240px;
+
+  &__title {
+    color: #5d73ff;
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 100px;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__img {
+    width: 100px;
+    height: 100px;
+  }
+}

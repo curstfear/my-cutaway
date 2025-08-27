@@ -14,13 +14,16 @@
   height: 80px;
 }
 
-.contacts {
+.nav {
   &__list {
     display: flex;
+    background-color: #27282a;
+    border-radius: 25px;
   }
 
   &__list-item {
-    padding-left: 35px;
+    padding: 15px ;
+    transition: all .2s;
   }
 
   &__list-link {
