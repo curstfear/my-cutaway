@@ -1,0 +1,18 @@
+.hardskills {
+  padding: 100px 0 150px;
+  background-color: #f4f5f7;
+  &__title {
+    color: #5d73ff;
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 100px;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}
